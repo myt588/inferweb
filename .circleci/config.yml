@@ -36,4 +36,3 @@ jobs:
       - run: aws --version
       - run: aws s3 ls
       - run: yarn run deploy-aws   
-      - run: yarn run deploy-github   
