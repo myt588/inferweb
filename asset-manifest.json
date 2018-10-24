@@ -1,14 +1,14 @@
 {
-  "main.css": "/static/css/main.f260c620.chunk.css",
-  "main.js": "/static/js/main.c0610d78.chunk.js",
-  "main.js.map": "/static/js/main.c0610d78.chunk.js.map",
-  "static/js/1.a700ff87.chunk.js": "/static/js/1.a700ff87.chunk.js",
-  "static/js/1.a700ff87.chunk.js.map": "/static/js/1.a700ff87.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
-  "static/css/main.f260c620.chunk.css.map": "/static/css/main.f260c620.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.149d7ba6304c3c92d607f7526bfc49a0.js": "/precache-manifest.149d7ba6304c3c92d607f7526bfc49a0.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/inferweb/static/css/main.f260c620.chunk.css",
+  "main.js": "/inferweb/static/js/main.d90396fe.chunk.js",
+  "main.js.map": "/inferweb/static/js/main.d90396fe.chunk.js.map",
+  "static/js/1.a700ff87.chunk.js": "/inferweb/static/js/1.a700ff87.chunk.js",
+  "static/js/1.a700ff87.chunk.js.map": "/inferweb/static/js/1.a700ff87.chunk.js.map",
+  "runtime~main.js": "/inferweb/static/js/runtime~main.de7be64b.js",
+  "runtime~main.js.map": "/inferweb/static/js/runtime~main.de7be64b.js.map",
+  "static/media/logo.svg": "/inferweb/static/media/logo.5d5d9eef.svg",
+  "static/css/main.f260c620.chunk.css.map": "/inferweb/static/css/main.f260c620.chunk.css.map",
+  "index.html": "/inferweb/index.html",
+  "precache-manifest.0dcf6e122cee872096691969385c27f8.js": "/inferweb/precache-manifest.0dcf6e122cee872096691969385c27f8.js",
+  "service-worker.js": "/inferweb/service-worker.js"
 }
