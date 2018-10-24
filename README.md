@@ -1,0 +1,2 @@
+# inferweb
+Inferweb japan version
