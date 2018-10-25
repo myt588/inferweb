@@ -2,9 +2,7 @@
   "name": "inferweb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://myt588.github.io/inferweb/",
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "2.0.5"
@@ -14,8 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy-aws": "yarn build && aws s3 sync build/ s3://inferweb --delete",
-    "deploy-github": "yarn build && gh-pages -d build"
+    "deploy-aws": "yarn build && aws s3 sync build/ s3://inferweb --delete"
   },
   "eslintConfig": {
     "extends": "react-app"
