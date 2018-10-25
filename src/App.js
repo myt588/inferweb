@@ -1,28 +1,63 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Header, Footer } from './components/'
+import './App.scss'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+function App () {
+  return (
+    <Router>
+      <div>
+        <Header />
+        <hr />
+        <Route exact path='/' component={Home} />
+        <Route path='/products' component={Products} />
+        <Route path='/cases' component={Cases} />
+        <Route path='/media' component={Media} />
+        <Route path='/about' component={About} />
+        <Footer />
       </div>
-    );
-  }
+    </Router>
+  )
 }
 
-export default App;
+function Home () {
+  return (
+    <div className='test'>
+      <h2>Home</h2>
+    </div>
+  )
+}
+
+function Products () {
+  return (
+    <div>
+      <h2>Products</h2>
+    </div>
+  )
+}
+
+function Cases () {
+  return (
+    <div>
+      <h2>Cases</h2>
+    </div>
+  )
+}
+
+function Media () {
+  return (
+    <div>
+      <h2>Media</h2>
+    </div>
+  )
+}
+
+function About () {
+  return (
+    <div>
+      <h2>About</h2>
+    </div>
+  )
+}
+
+export default App

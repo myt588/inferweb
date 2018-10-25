@@ -1,0 +1,32 @@
+@import 'settings';
+
+@mixin t-border-common($color:#666) {
+  border: 1px solid $color;
+}
+
+@mixin t-link-color($color: $primary) {
+  color: $color;
+
+  &:hover {
+    text-decoration: none;
+    opacity: 0.6;
+  }
+}
+
+@mixin style-in-pc {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin style-in-sp {
+  @media screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin style-in-lg {
+  @media screen and (min-width: 1140px) {
+    @content;
+  }
+}
