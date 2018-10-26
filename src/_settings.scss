@@ -1,20 +1,49 @@
-// main
-$primary: #3171FF;
-$blueish-black: #19233c;
-$white: #ffffff;
-$secondary: #6270A1;
-// gray
-$gray100: #F7F9FB;
-$gray200: #F2F4FA;
-$gray300: #E7EAF3;
-$gray400: #D4D7DD;
-$gray500: #A3A7B1;
-// accent color
-$green: #37D976;
-$light-green: #F2FFED;
-$orange: #FF9A00;
-$light-orange: #FFF3E9;
-$red: #FF0037;
-$light-red: #FFEDED;
-$light-blue: #EEF7FF;
+// colors
+$primary: #41B9CE;
+$secondary: #0288D1;
+$disabled: rgba(238, 238, 238, 0.30);
+$background: #000000;
+$white: white;
+$red: red;
+
 $default_radius: 4px;
+
+// fonts
+%headline {
+  font-family: 'OCR A Std';
+  font-size: 105px;
+}
+
+%headline40 {
+  font-family: OCR A Std, monospace;
+  font-size: 40px;
+  color: $white;
+}
+
+%title {
+  font-family: Helvetica Neue, sans-serif;
+  font-size: 30px;
+  color: $white;
+}
+
+%body3 {
+  font-family: 'HelveticaNeue-Regular';
+  font-size: 20px;
+  color: $white;
+}
+
+%body2 {
+  font-family: 'HelveticaNeue-Medium';
+  font-size: 18px;
+}
+
+%button {
+  font-family: 'HelveticaNeue-Bold';
+  font-size: 18px;
+  color: $secondary;
+}
+
+%caption1 {
+  font-family: 'Helvetica Neue';
+  font-size: 12px;
+}

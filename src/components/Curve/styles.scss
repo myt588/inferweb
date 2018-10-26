@@ -1,0 +1,13 @@
+@import '../../settings';
+@import '../../tools';
+
+.hander-banner {
+  position: absolute;
+  top: 120px;
+  width: 110%;
+  margin-left: -100px;
+  height: 100px;
+  border: solid 10px $primary;
+  border-color: transparent transparent $primary transparent;
+  border-radius: 0 0 50% 50%;
+}

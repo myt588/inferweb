@@ -1,6 +1,8 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Header, Footer } from './components/'
+import Home from './pages/Home/'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.scss'
 
 function App () {
@@ -16,14 +18,6 @@ function App () {
         <Footer />
       </div>
     </Router>
-  )
-}
-
-function Home () {
-  return (
-    <div className='test'>
-      <h2>DOIT</h2>
-    </div>
   )
 }
 

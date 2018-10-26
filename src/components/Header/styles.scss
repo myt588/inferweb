@@ -1,0 +1,48 @@
+@import '../../settings';
+@import '../../tools';
+
+nav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: $background;
+  height: 242px;
+  
+  .nav-wrapper {
+    margin-top: 84px;
+  }
+
+  .nav-logo {
+    float: left;
+    margin-left: 82px;
+  }
+
+  ul {
+    float: right;
+    list-style-type: none;
+    margin-right: 220px;
+
+    li {
+      display: inline-block;
+      a {
+        @extend %body2;
+        display: block;
+        color: $primary;
+        text-align: center;
+        padding: 14px 30px;
+        text-decoration: none;
+      }
+
+      a:hover {
+        background-color: #111;
+      }
+    }
+  }
+
+  ul li:last-child a{
+    color: $white;
+  }
+}
+
+
+
