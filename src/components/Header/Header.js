@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import './style.scss'
 
 class Header extends Component {
   render () {
     return (
       <div>
-        <ul>
+        <nav>
           <li>
             <Link to='/'>Home</Link>
           </li>
@@ -21,7 +22,7 @@ class Header extends Component {
           <li>
             <Link to='/about'>About</Link>
           </li>
-        </ul>
+        </nav>
       </div>
     )
   }

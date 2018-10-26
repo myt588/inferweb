@@ -8,7 +8,6 @@ function App () {
     <Router>
       <div>
         <Header />
-        <hr />
         <Route exact path='/' component={Home} />
         <Route path='/products' component={Products} />
         <Route path='/cases' component={Cases} />
@@ -23,7 +22,7 @@ function App () {
 function Home () {
   return (
     <div className='test'>
-      <h2>Home</h2>
+      <h2>DOIT</h2>
     </div>
   )
 }
