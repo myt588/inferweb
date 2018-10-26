@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import { HomeAbout } from '../../components/'
+import { Carousel } from '../../components/'
 
 class Home extends Component {
   render () {
     return (
       <div>
-        <HomeAbout />
+        <Carousel />
       </div>
     )
   }

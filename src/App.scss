@@ -15,6 +15,10 @@ body {
   font-size: 12px;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 @include style-in-sp {
   .btn {
     width: calc(100% - 20px);

@@ -11,8 +11,10 @@ class HomeAbout extends Component {
           <div className='col-md-6'>
             <img className='home-about-img' src={homeAbout1} alt='About' />
           </div>
-          <div className='col-md-6 home-about-bio'>
-            <ShortBio />
+          <div className='col-md-6'>
+            <div className='home-about-bio'>
+              <ShortBio />
+            </div>
           </div>
         </div>
       </React.Fragment>
