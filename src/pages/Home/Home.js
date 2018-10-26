@@ -1,11 +1,25 @@
 import React, { Component } from 'react'
-import { Carousel } from '../../components/'
+import { Carousel, HomeAbout, HomeProduct, Curve } from '../../components/'
+
+const itemsAbout = [
+  <HomeAbout />,
+  <HomeAbout />,
+  <HomeAbout />
+]
+
+const itemsProduct = [
+  <HomeProduct />,
+  <HomeProduct />,
+  <HomeProduct />
+]
 
 class Home extends Component {
   render () {
     return (
       <div>
-        <Carousel />
+        <Carousel items={itemsProduct} />
+        <Curve />
+        <Carousel items={itemsAbout} />
       </div>
     )
   }
