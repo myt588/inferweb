@@ -9,3 +9,4 @@ Inferweb japan version
 4. HTML => to be learned first
 5. CSS => to be learned first
 6. JS
+7. create-react-app => base template
