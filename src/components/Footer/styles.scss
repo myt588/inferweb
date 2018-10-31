@@ -1,0 +1,37 @@
+@import '../../settings';
+@import '../../tools';
+
+footer {
+  height: 280;
+  background-color: $background;
+
+  .footer-wrapper {
+    padding-left: 80px;
+    padding-top: 50px;
+  }
+
+  .footer-link-list {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: $white20;
+    a {
+      @extend .caption1;
+      display: block;
+      text-decoration: none;
+      padding-bottom: 5px;
+    }
+  }
+
+  .footer-grid {
+    width: 140px;
+    margin: 0px 13px;
+  }
+
+  .copyright {
+    @extend .caption1;
+    color: $white70;
+    font-size: 8px;
+    margin-bottom: 34px;
+    text-align: center;
+  }
+}

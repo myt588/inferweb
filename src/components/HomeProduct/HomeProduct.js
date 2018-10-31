@@ -7,7 +7,7 @@ class HomeProduct extends Component {
   render () {
     return (
       <React.Fragment>
-        <div className='row'>
+        <div className='row section-padding'>
           <div className='col-md-7'>
             <div className='home-product-bio'>
               <ShortBio />

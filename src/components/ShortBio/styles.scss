@@ -3,12 +3,12 @@
 
 .short-bio {
   &-title {
-    @extend %title;
+    @extend .title;
     letter-spacing: 2px;
   }
 
   &-subtitle {
-    @extend %headline40;
+    @extend .headline40;
     line-height: 48px;
   }
 
@@ -25,20 +25,20 @@
   }
 
   &-body {
-    @extend %body3;
+    @extend .body3;
     opacity: 0.7;
     line-height: 32px;
   }
 
   &-footer {
-    @extend %body3;
+    @extend .body3;
     color: $secondary;
     opacity: 0.7;
     line-height: 32px;
   }
 
   &-button {
-    @extend %button;
+    @extend .button;
     cursor: pointer;
     display: flex;
     flex-direction: row;

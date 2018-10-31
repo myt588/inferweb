@@ -24,8 +24,9 @@ nav {
 
     li {
       display: inline-block;
+
       a {
-        @extend %body2;
+        @extend .body2;
         display: block;
         color: $primary;
         text-align: center;

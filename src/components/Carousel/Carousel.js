@@ -47,9 +47,9 @@ class MyCarousel extends Component {
         <CarouselItem
           onExiting={this.onExiting}
           onExited={this.onExited}
-          key={item.src}
+          key={item.key}
         >
-          {item}
+          {item.component}
         </CarouselItem>
       )
     })

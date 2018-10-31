@@ -19,6 +19,11 @@ body {
   cursor: pointer;
 }
 
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 @include style-in-sp {
   .btn {
     width: calc(100% - 20px);
