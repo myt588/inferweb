@@ -1,0 +1,46 @@
+@import '../../settings';
+@import '../../tools';
+
+.request {
+  &-wrapper {
+    margin-top: 135px;
+    margin-bottom: 370px;
+  }
+
+  &-input-container {
+    padding: 14px 0px;
+  }
+
+  &-input {
+    @extend .body2;
+    width: 100%;
+    color: $grey;
+    font-size: 20px;
+    padding-left: 20px;
+    border-color: $brown;
+    background-color: $background;
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: solid;
+    height: 50px;
+  }
+
+  &-area {
+    @extend .body2;
+    width: 100%;
+    color: $grey;
+    font-size: 20px;
+    padding-left: 20px;
+    border-color: $brown;
+    background-color: $background;
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: solid;
+  }
+
+  &-label {
+    @extend .body2;
+    color: $white;
+    font-size: 20px;
+  }
+}

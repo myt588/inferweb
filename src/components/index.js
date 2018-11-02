@@ -5,6 +5,7 @@ import ShortBio from './ShortBio/'
 import HomeAbout from './HomeAbout/'
 import HomeProduct from './HomeProduct/'
 import Carousel from './Carousel/'
+import RadioInput from './RadioInput/'
 
 export {
   Header,
@@ -13,5 +14,6 @@ export {
   ShortBio,
   HomeAbout,
   HomeProduct,
-  Carousel
+  Carousel,
+  RadioInput
 }

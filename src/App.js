@@ -1,7 +1,13 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 import { Header, Footer } from './components/'
 import Home from './pages/Home/'
+import Products from './pages/Products/'
+import Cases from './pages/Cases/'
+import Media from './pages/Media/'
+import About from './pages/About/'
+import Request from './pages/Request/'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.scss'
 
@@ -9,47 +15,19 @@ function App () {
   return (
     <Router>
       <div>
+        <Helmet>
+          <title>Infervision</title>
+        </Helmet>
         <Header />
         <Route exact path='/' component={Home} />
         <Route path='/products' component={Products} />
         <Route path='/cases' component={Cases} />
         <Route path='/media' component={Media} />
         <Route path='/about' component={About} />
+        <Route path='/request' component={Request} />
         <Footer />
       </div>
     </Router>
-  )
-}
-
-function Products () {
-  return (
-    <div>
-      <h2>Products</h2>
-    </div>
-  )
-}
-
-function Cases () {
-  return (
-    <div>
-      <h2>Cases</h2>
-    </div>
-  )
-}
-
-function Media () {
-  return (
-    <div>
-      <h2>Media</h2>
-    </div>
-  )
-}
-
-function About () {
-  return (
-    <div>
-      <h2>About</h2>
-    </div>
   )
 }
 

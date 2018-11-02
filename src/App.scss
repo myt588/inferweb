@@ -1,18 +1,10 @@
 @import 'settings';
 @import 'tools';
 
-// fonts
+html,
 body {
+  min-width: 1500px !important;
   background-color: $background;
-}
-.headline {
-  font-family: 'OCR A Std';
-  font-size: 105px;
-}
-
-.caption1 {
-  font-family: 'Helvetica Neue';
-  font-size: 12px;
 }
 
 .pointer {

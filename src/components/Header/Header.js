@@ -14,6 +14,13 @@ class Header extends Component {
           </div>
           <ul>
             <li>
+              <Link to='/request'>
+                <div className='nav-button'>
+                  <div>Request</div>
+                </div>
+              </Link>
+            </li>
+            <li>
               <Link to='/products'>Products</Link>
             </li>
             <li>

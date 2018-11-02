@@ -45,5 +45,13 @@ nav {
   }
 }
 
-
-
+.nav-button {
+  @extend .button;
+  width: 154px;
+  height: 48px;
+  background-color: $white;
+  border-color: $secondary;
+  border-width: 1px;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
