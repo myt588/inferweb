@@ -2,11 +2,11 @@
 @import '../../tools';
 
 nav {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: $background;
-  height: 242px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 220px;
+  z-index: 20;
   
   .nav-wrapper {
     margin-top: 84px;
@@ -32,10 +32,6 @@ nav {
         text-align: center;
         padding: 14px 30px;
         text-decoration: none;
-      }
-
-      a:hover {
-        background-color: #111;
       }
     }
   }

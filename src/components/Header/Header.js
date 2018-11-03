@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, withRouter } from 'react-router-dom'
 import Curve from '../Curve/'
 import logo from '../../images/logo.svg'
 import './styles.scss'
 
 class Header extends Component {
   render () {
+    const style = this.props.location.pathname === '/about' ? {} : { backgroundColor: 'black' }
     return (
-      <nav>
+      <nav style={style}>
         <div className='nav-wrapper'>
           <div className='nav-logo'>
             <Link to='/'><img src={logo} alt='Logo' width='180' /></Link>
@@ -43,4 +44,4 @@ class Header extends Component {
   }
 }
 
-export default Header
+export default withRouter(Header)

@@ -1,0 +1,18 @@
+@import '../../settings';
+@import '../../tools';
+
+.aboutus {
+  &-wrapper {
+    position: absolute;
+    right: 474px;
+    top: 738px;
+  }
+  &-title {
+    @extend .headline40;
+    color: $primary
+  }
+  &-subtitle {
+    @extend .button;
+    font-size: 16px;
+  }
+}

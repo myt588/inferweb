@@ -6,6 +6,13 @@ import HomeAbout from './HomeAbout/'
 import HomeProduct from './HomeProduct/'
 import Carousel from './Carousel/'
 import RadioInput from './RadioInput/'
+import AboutUs from './AboutUs/'
+import AboutNav from './AboutNav/'
+import AboutInfervision from './AboutInfervision/'
+import AboutLeader from './AboutLeader/'
+import AboutTeams from './AboutTeams/'
+import AboutHonors from './AboutHonors/'
+import AboutPartners from './AboutPartners/'
 
 export {
   Header,
@@ -15,5 +22,12 @@ export {
   HomeAbout,
   HomeProduct,
   Carousel,
-  RadioInput
+  RadioInput,
+  AboutUs,
+  AboutNav,
+  AboutInfervision,
+  AboutLeader,
+  AboutTeams,
+  AboutHonors,
+  AboutPartners
 }

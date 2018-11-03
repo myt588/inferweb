@@ -34,7 +34,7 @@ const itemsProduct = [
 class Home extends Component {
   render () {
     return (
-      <div>
+      <div className='page-wrapper'>
         <Carousel items={itemsProduct} />
         <Curve />
         <Carousel items={itemsAbout} />

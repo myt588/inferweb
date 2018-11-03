@@ -4,7 +4,13 @@
 html,
 body {
   min-width: 1500px !important;
-  background-color: $background;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.page-wrapper {
+  padding-top: 242px;
+  width: 100%;
 }
 
 .pointer {

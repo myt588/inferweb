@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1388 700">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        stroke: #0288d1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4, .cls-5 {
+        fill: #eee;
+      }
+
+      .cls-4 {
+        font-size: 30px;
+        font-family: HelveticaNeue, Helvetica Neue;
+        letter-spacing: 0.1em;
+      }
+
+      .cls-5 {
+        font-size: 20px;
+        font-family: HelveticaNeue-Medium, Helvetica Neue;
+        font-weight: 500;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="1388" height="700"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#039be5"/>
+      <stop offset="0.561" stop-color="#20b6bc"/>
+      <stop offset="1" stop-color="#33c8a1"/>
+    </linearGradient>
+  </defs>
+  <g id="Repeat_Grid_3" data-name="Repeat Grid 3" class="cls-2">
+    <g transform="translate(-227 -4633.364)">
+      <g id="Group_230" data-name="Group 230" transform="translate(0 -543)">
+        <path id="outline" class="cls-3" d="M1249.757,753.961c30.072-142.675,24.392-256.28,21.385-279.335a13.945,13.945,0,0,0-7.351-10.692,14.906,14.906,0,0,0-13.031-1c-21.719,8.688-123.629,59.476-233.225,155.372a141.747,141.747,0,1,0,232.222,135.658Z" transform="translate(-742.106 4714.477)"/>
+      </g>
+      <text id="Xiaoyan_Zhou" data-name="Xiaoyan 
+Zhou" class="cls-4" transform="translate(256 5094)"><tspan x="60.945" y="29">Xiaoyan </tspan><tspan x="84.045" y="65">Zhou</tspan></text>
+      <text id="CEO_of_Japan_Branch" data-name="CEO of Japan Branch" class="cls-5" transform="translate(272 5192)"><tspan x="6.96" y="20">CEO of Japan Branch</tspan></text>
+    </g>
+    <g transform="translate(313 -4633.364)">
+      <g id="Group_230-2" data-name="Group 230" transform="translate(0 -543)">
+        <path id="outline-2" data-name="outline" class="cls-3" d="M1249.757,753.961c30.072-142.675,24.392-256.28,21.385-279.335a13.945,13.945,0,0,0-7.351-10.692,14.906,14.906,0,0,0-13.031-1c-21.719,8.688-123.629,59.476-233.225,155.372a141.747,141.747,0,1,0,232.222,135.658Z" transform="translate(-742.106 4714.477)"/>
+      </g>
+      <text id="Xiaoxi_Guo" data-name="Xiaoxi 
+Guo" class="cls-4" transform="translate(256 5094)"><tspan x="75.24" y="29">Xiaoxi </tspan><tspan x="91.665" y="65">Guo</tspan></text>
+      <text id="COO_of_Japan_Branch" data-name="COO of Japan Branch" class="cls-5" transform="translate(272 5192)"><tspan x="5.66" y="20">COO of Japan Branch</tspan></text>
+    </g>
+    <g transform="translate(853 -4633.364)">
+      <g id="Group_230-3" data-name="Group 230" transform="translate(0 -543)">
+        <path id="outline-3" data-name="outline" class="cls-3" d="M1249.757,753.961c30.072-142.675,24.392-256.28,21.385-279.335a13.945,13.945,0,0,0-7.351-10.692,14.906,14.906,0,0,0-13.031-1c-21.719,8.688-123.629,59.476-233.225,155.372a141.747,141.747,0,1,0,232.222,135.658Z" transform="translate(-742.106 4714.477)"/>
+      </g>
+      <text id="Yetian_Mao" data-name="Yetian
+Mao" class="cls-4" transform="translate(256 5094)"><tspan x="74.94" y="29">Yetian</tspan><tspan x="90.27" y="65">Mao</tspan></text>
+      <text id="CTO_of_Japan_Branch" data-name="CTO of Japan Branch" class="cls-5" transform="translate(272 5192)"><tspan x="7.33" y="20">CTO of Japan Branch</tspan></text>
+    </g>
+  </g>
+</svg>

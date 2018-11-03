@@ -22,7 +22,7 @@ class Request extends Component {
 
   render () {
     return (
-      <div className='row request-wrapper'>
+      <div className='row request-wrapper page-wrapper'>
         <div className='col-md-6 offset-md-3'>
           <form>
             <div className='d-flex align-items-center request-input-container'>
@@ -32,7 +32,7 @@ class Request extends Component {
             <div className='d-flex align-items-center request-input-container'>
               <div className='col-sm-6 d-flex align-items-center'>
                 <label htmlFor='name' className='request-label'>*</label>
-                <div className='px-2'>
+                <div className='px-2 py-2'>
                   <RadioInput
                     text={'Organization'}
                     checked={this.state.checked === 0}
@@ -45,12 +45,14 @@ class Request extends Component {
                     onChange={() => this.setState({ checked: 1 })} />
                 </div>
               </div>
-              <input
-                type='text'
-                className='col-sm-6 request-input'
-                placeholder={'Your' + (this.state.checked ? ' ' : ' Organization ') + 'Name'}
-                id='organizationName'
-                onChange={(e) => this.onTextChange(e)} />
+              {!this.state.checked &&
+                <input
+                  type='text'
+                  className='col-sm-6 request-input'
+                  placeholder={'Your Organization Name'}
+                  id='organizationName'
+                  onChange={(e) => this.onTextChange(e)} />
+              }
             </div>
             <div className='d-flex align-items-center request-input-container'>
               <label htmlFor='jobTitle' className='col-sm-2 request-label'>Job Title</label>

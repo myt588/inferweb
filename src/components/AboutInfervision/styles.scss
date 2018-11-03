@@ -1,0 +1,21 @@
+@import '../../settings';
+@import '../../tools';
+
+.about-infer {
+  &-wrapper {
+    background-color: $background;
+    padding-bottom: 40px;
+  }
+
+  &-bio {
+    position: relative;
+    top: 600px;
+    left: 167px;
+  }
+
+  &-timeline {
+    position: relative;
+    top: 27px;
+    right: 80px;
+  }
+}

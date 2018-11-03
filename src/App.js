@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, withRouter } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 import { Header, Footer } from './components/'
 import Home from './pages/Home/'
@@ -14,7 +14,18 @@ import './App.scss'
 function App () {
   return (
     <Router>
-      <div>
+      <Routess />
+    </Router>
+  )
+}
+
+const Routess = withRouter(props => <Routes {...props} />)
+
+class Routes extends React.Component {
+  render () {
+    const style = this.props.location.pathname === '/about' ? {} : { backgroundColor: 'black' }
+    return (
+      <div style={style}>
         <Helmet>
           <title>Infervision</title>
         </Helmet>
@@ -27,8 +38,8 @@ function App () {
         <Route path='/request' component={Request} />
         <Footer />
       </div>
-    </Router>
-  )
+    )
+  }
 }
 
 export default App
