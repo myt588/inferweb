@@ -1,12 +1,24 @@
 @import '../../settings';
 @import '../../tools';
 
+@keyframes about-nav-down {
+  from {
+    top: 10%;
+  }
+
+  to {
+    top: 90%;
+  }
+}
+
 .about-nav {
   &-wrapper {
     position: absolute;
-    bottom: 0px;
+    top: 90%;
     width: 100%;
     height: 30px;
+    animation-duration: 1s;
+    animation-name: about-nav-down;
   }
 
   &-item {

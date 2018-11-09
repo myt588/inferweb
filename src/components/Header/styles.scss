@@ -1,26 +1,82 @@
 @import '../../settings';
 @import '../../tools';
 
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 220px;
-  z-index: 20;
-  
-  .nav-wrapper {
-    margin-top: 84px;
+@keyframes header-shrink {
+  from {
+    padding-top: 84px;
   }
 
-  .nav-logo {
-    float: left;
-    margin-left: 82px;
+  to {
+    padding-top: 23px;
+  }
+}
+
+@keyframes header-enlarge {
+  from {
+    padding-top: 23px;
+  }
+  
+  to {
+    padding-top: 84px;
+  }
+}
+
+@keyframes header-curve-shrink {
+  from {
+    padding-top: 40px;
+  }
+
+  to {
+    padding-top: 0px;
+  }
+}
+
+@keyframes header-curve-enlarge {
+  from {
+    padding-top: 0px;
+  }
+
+  to {
+    padding-top: 40px;
+  }
+}
+
+nav {
+  .header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 84px;
+    animation-duration: 0.5s;
+    animation-name: header-enlarge;
+  }
+  
+  .header-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 23px;
+    animation-duration: 0.5s;
+    animation-name: header-shrink;
+  }
+
+  .header-curve-long {
+    padding-top: 40px;
+    animation-duration: 0.5s;
+    animation-name: header-curve-enlarge;
+  }
+
+  .header-curve-short {
+    padding-top: 0px;
+    animation-duration: 0.5s;
+    animation-name: header-curve-shrink;
   }
 
   ul {
     float: right;
     list-style-type: none;
-    margin-right: 220px;
 
     li {
       display: inline-block;

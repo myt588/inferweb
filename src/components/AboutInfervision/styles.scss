@@ -4,18 +4,16 @@
 .about-infer {
   &-wrapper {
     background-color: $background;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
+    padding-top: 100px;
   }
 
   &-bio {
-    position: relative;
-    top: 600px;
-    left: 167px;
+    padding-left: 200px;
+    padding-top: 610px;
   }
 
   &-timeline {
-    position: relative;
-    top: 27px;
-    right: 80px;
+    margin-left: 280px;
   }
 }

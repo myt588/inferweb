@@ -11,7 +11,6 @@ class Curve extends Component {
       )
     } else {
       return (
-        // <div className='hander-banner' />
         <img className='curve' src={curve} alt='Curve' />
       )
     }

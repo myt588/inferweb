@@ -5,9 +5,11 @@ import './styles.scss'
 class AboutPartners extends Component {
   render () {
     return (
-      <React.Fragment>
-        <img src={parnters} alt='border' width={1388} height={700} />
-      </React.Fragment>
+      <div className='about-partners-wrapper row'>
+        <div className='offset-md-1 col-md-10 text-center'>
+          <img src={parnters} alt='border' width={1388} height={700} />
+        </div>
+      </div>
     )
   }
 }
