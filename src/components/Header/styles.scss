@@ -46,7 +46,7 @@ nav {
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 1;
     padding-top: 84px;
     animation-duration: 0.5s;
     animation-name: header-enlarge;
@@ -56,7 +56,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 1;
     padding-top: 23px;
     animation-duration: 0.5s;
     animation-name: header-shrink;
