@@ -28,7 +28,7 @@ class Header extends Component {
   render () {
     const style = this.props.location.pathname === '/about' ? {} : { backgroundColor: 'black' }
     return (
-      <nav style={style}>
+      <nav style={style} id='HEADER'>
         <div className={this.state.onTop ? 'header' : 'header-fixed'}>
           <div className='row'>
             <div className='col-md-3 offset-md-1'>

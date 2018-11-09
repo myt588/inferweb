@@ -14,12 +14,26 @@ import './App.scss'
 function App () {
   return (
     <Router>
-      <Routess />
+      <ScrollToTopp>
+        <Routess />
+      </ScrollToTopp>
     </Router>
   )
 }
 
-const Routess = withRouter(props => <Routes {...props} />)
+class ScrollToTop extends React.Component {  
+  componentDidUpdate (prevProps) {
+    if (this.props.location !== prevProps.location) {
+      window.scrollTo(0, 0)
+    }
+  }
+
+  render () {
+    return this.props.children
+  }
+}
+
+const ScrollToTopp = withRouter(ScrollToTop)
 
 class Routes extends React.Component {
   render () {
@@ -41,5 +55,7 @@ class Routes extends React.Component {
     )
   }
 }
+
+const Routess = withRouter(Routes)
 
 export default App

@@ -22,7 +22,7 @@ class Request extends Component {
 
   render () {
     return (
-      <div className='row request-wrapper page-wrapper'>
+      <div className='row request-wrapper'>
         <div className='col-md-6 offset-md-3'>
           <form>
             <div className='d-flex align-items-center request-input-container'>
