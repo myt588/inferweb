@@ -16,6 +16,7 @@ import AboutPartners from './AboutPartners/'
 import MediaCenter from './MediaCenter/'
 import MediaNav from './MediaNav/'
 import MediaList from './MediaList/'
+import ThreeContainer from './ThreeContainer/'
 
 export {
   Header,
@@ -35,5 +36,6 @@ export {
   AboutPartners,
   MediaCenter,
   MediaNav,
-  MediaList
+  MediaList,
+  ThreeContainer
 }
