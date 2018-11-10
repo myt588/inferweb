@@ -1,0 +1,39 @@
+@import '../../settings';
+@import '../../tools';
+
+@keyframes about-nav-down {
+  from {
+    top: 10%;
+  }
+
+  to {
+    top: 95%;
+  }
+}
+
+.about-nav {
+  &-wrapper {
+    position: absolute;
+    top: 95%;
+    width: 100%;
+    height: 30px;
+    animation-duration: 1s;
+    animation-name: about-nav-down;
+  }
+
+  &-item {
+    width: 10%;
+  }
+
+  &-title {
+    @extend .headline105;
+    cursor: pointer;
+    font-size: 30px;
+  }
+
+  &-border {
+    width: 100%;
+    height: 15px;
+    z-index: 10;
+  }
+}

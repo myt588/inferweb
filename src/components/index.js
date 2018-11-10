@@ -13,6 +13,9 @@ import AboutLeader from './AboutLeader/'
 import AboutTeams from './AboutTeams/'
 import AboutHonors from './AboutHonors/'
 import AboutPartners from './AboutPartners/'
+import MediaCenter from './MediaCenter/'
+import MediaNav from './MediaNav/'
+import MediaList from './MediaList/'
 
 export {
   Header,
@@ -29,5 +32,8 @@ export {
   AboutLeader,
   AboutTeams,
   AboutHonors,
-  AboutPartners
+  AboutPartners,
+  MediaCenter,
+  MediaNav,
+  MediaList
 }
