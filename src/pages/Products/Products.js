@@ -4,7 +4,7 @@ import { ThreeContainer } from '../../components'
 class Products extends Component {
   render () {
     return (
-      <div className='page-wrapper'>
+      <div style={{ paddingTop: '150px' }}>
         <ThreeContainer />
       </div>
     )
