@@ -467,6 +467,9 @@ export const TrackballControls = function (object, domElement) {
         _moveCurr.copy(getMouseOnCircle(event.touches[0].pageX, event.touches[0].pageY))
         _movePrev.copy(_moveCurr)
         break
+
+      default:
+        break
     }
 
     _this.dispatchEvent(endEvent)
